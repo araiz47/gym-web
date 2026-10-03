@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IronCore Fitness</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <a href="#top">IronCore Fitness</a>
+    <nav id="nav">
+      <a href="#about">About</a>
+      <a href="#programs">Programs</a>
+      <a href="#contact">Contact</a>
+      <a href="#plans">Join</a>
+    </nav>
+    <button class="menu-toggle" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+  </header>
+
+  <main>
+
+    <section id="top">
+      <div id="hero-section">
+        <h1>Unleash Your True Potential.</h1>
+        <p>Stop wishing for results and start building them. Join our elite training facility to push past your limits, shatter your personal goals, and forge the strongest version of yourself.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#plans">Start Now</a>
+          <a class="btn btn-outline" href="#programs">See Programs</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="scroll-banner" aria-label="Train hard. Feel good. Keep going.">
+      <div class="banner-track" aria-hidden="true">
+        <span>Train hard. Feel good. Keep going. &bull; Train hard. Feel good. Keep going. &bull; Train hard. Feel good. Keep going. &bull;</span>
+        <span>Train hard. Feel good. Keep going. &bull; Train hard. Feel good. Keep going. &bull; Train hard. Feel good. Keep going. &bull;</span>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>THE WORK IS HARD. <br>
+        THE FEELING IS WORTH IT.
+      </h2>
+      <p>We’re more than a place to work out. We’re a community built on showing up, putting in the work, and becoming stronger together. Whatever your starting point, you belong here.</p>
+    </section>
+
+    <section id="programs">
+      <h2>PICK YOUR TRAINING</h2>
+      <p>Different goals, one gym. Find the program that fits where you are right now.</p>
+
+      <div class="program-grid">
+        <div class="program-card">
+          <img src="strength.jpg" alt="Member lifting a barbell">
+          <h3>STRENGTH</h3>
+          <p>01 / Get stronger from the ground up. <br>
+            Lift with purpose, progress with confidence.
+          </p>
+        </div>
+
+        <div class="program-card">
+          <img src="conditioning.jpg" alt="Group doing a high-energy conditioning workout">
+          <h3>CONDITIONING</h3>
+          <p>02 / Push your limits with high-energy training that goes beyond the ordinary.</p>
+        </div>
+
+        <div class="program-card">
+          <img src="motivation.jpg" alt="Person stretching during a mobility session">
+          <h3>MOVEMENT</h3>
+          <p>03 / Move better, feel better. <br>
+            Make space to reset, recover, and go again.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="newhero-section">
+      <img src="gymfloor.jpg" alt="Open gym floor with weights and racks">
+      <h2>YOUR SPACE <br>
+        TO SHOW UP.
+      </h2>
+      <p>No pressure to be perfect. Just a place to get better, one session at a time. <br>
+        Great coaches, a welcoming crew, and everything you need to make it happen.
+      </p>
+      <div class="stats">
+        <div class="stat">
+          <strong>24/7</strong>
+          <span>Access whenever you need it</span>
+        </div>
+        <div class="stat">
+          <strong>500+</strong>
+          <span>Active members</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="plans">
+      <h2>MAKE IT HAPPEN</h2>
+      <p>Simple memberships. No excuses. Your next chapter starts here.</p>
+
+      <div class="billing-toggle">
+        <button type="button" id="monthlyBtn" class="active">Monthly</button>
+        <button type="button" id="yearlyBtn">Yearly</button>
+      </div>
+
+      <div class="plan-grid">
+        <div class="plan">
+          <h3>OPEN GYM</h3>
+          <p class="price">$<span class="amount" data-monthly="39" data-yearly="32">39</span> / month</p>
+          <ul>
+            <li>Unlimited gym access</li>
+            <li>Locker room access</li>
+            <li>Open 5am to 11pm</li>
+          </ul>
+          <a href="#contact" class="btn">Choose Open Gym</a>
+        </div>
+
+        <div class="plan featured">
+          <span class="popular">Most popular</span>
+          <h3>ALL ACCESS</h3>
+          <p class="price">$<span class="amount" data-monthly="59" data-yearly="49">59</span> / month</p>
+          <ul>
+            <li>Everything in Open Gym</li>
+            <li>Unlimited group classes</li>
+            <li>Personal training intro</li>
+          </ul>
+          <a href="#contact" class="btn">Choose All Access</a>
+        </div>
+
+        <div class="plan">
+          <h3>COACHING</h3>
+          <p class="price">$<span class="amount" data-monthly="99" data-yearly="82">99</span> / month</p>
+          <ul>
+            <li>Everything in All Access</li>
+            <li>4 personal training sessions</li>
+            <li>Custom training plan</li>
+            <li>Monthly progress check-in</li>
+          </ul>
+          <a href="#contact" class="btn">Choose Coaching</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>READY TO <br>
+        GET AFTER IT?
+      </h2>
+      <p>The first step is always the hardest. <br>
+        We'll be right here for the rest.
+      </p>
+      <a class="btn" href="mailto:hello@ironcore.example?subject=I%27d%20like%20to%20get%20started">Let's get started</a>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-main">
+      <div class="footer-brand">
+        <a href="#top" class="logo">IronCore Fitness</a>
+        <p>Train with purpose. Every session counts.</p>
+      </div>
+
+      <div class="footer-links">
+        <div>
+          <h4>Explore</h4>
+          <a href="#about">About us</a>
+          <a href="#programs">Programs</a>
+          <a href="#plans">Membership</a>
+        </div>
+        <div>
+          <h4>Get in touch</h4>
+          <a href="mailto:hello@ironcore.example">Email us</a>
+          <a href="#contact">Contact</a>
+          <a href="#top">Back to top</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 IronCore Fitness. All rights reserved.</span>
+      <span>Built for the work. Made for the feeling.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
